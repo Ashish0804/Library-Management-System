@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1526923615 source:c:\users\sony\desktop\library\main.cpp
+	<string.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<stdio.h>
+	<process.h>
+	"Book.h"
+	"Details.h"
+
+1526924063 c:\users\sony\desktop\library\include\book.h
+
+1526924146 c:\users\sony\desktop\library\include\details.h
+
+1526924098 source:c:\users\sony\desktop\library\src\book.cpp
+	"Book.h"
+	<string.h>
+	<iostream>
+	<fstream>
+	<stdlib.h>
+	<stdio.h>
+	<process.h>
+
