@@ -22,10 +22,13 @@ Book::Add_book()
 			  cout<<"\n ID: ";
 			  cin>>ID;
 			  cout<<"\n Title: ";
-			  cin.ignore();
-			  gets(Title);
+			  gets(Title);		  
+			  cout<<"\n Price: ";
+			  cin>>Price;
 			  cout<<"\n ISBN: ";
 			  cin>>ISBN;
+			  cout<<"\n Stock: ";
+			  cin>>Stock;
 			  cout<<"\n Author's name: ";
 			  cin>>Author_name;
 			  cout<<"\n Publisher's name: ";
@@ -37,10 +40,8 @@ Book::Add_book()
 		      cin>>Publishing_month;
 			  cout<<"\n                  year: ";
 			  cin>>Publishing_year;
-			  cout<<"\n Stock: ";
-			  cin>>Stock;
-			  cout<<"\n Price: ";
-			  cin>>Price;
+			  
+
             }
 
 Book::Display_book()

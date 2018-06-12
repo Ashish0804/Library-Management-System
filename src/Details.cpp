@@ -26,12 +26,12 @@ Details::ISSUE()
 			 cin>>Issue_id;
 			 cout<<"\n Class: ";
 			 cin>>Class;
+			 cout<<"\n Book name: ";
+			 cin>>book_name;
 			 cout<<"\n Roll number: ";
 			 cin>>rollno;
 			 cout<<"\n Name of the student: ";
-			 cin>>name;
-			 cout<<"\n Book name: ";
-			 cin>>book_name;
+             cin>>name;
 			 cout<<"\n Issue Date: ";
 			 cout<<"\n             day: ";
 			 cin>>issue_day;
